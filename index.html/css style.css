@@ -1,0 +1,53 @@
+body{
+    background-image: url(background2.jpg);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center ;
+    background-size: contain;
+    
+
+}
+h1{
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 5px blue;
+    
+}
+p{
+   color:white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+   font-weight: 300;
+}
+#box1{
+    border: 0.5 cm solid;
+    width: 18cm;
+    height: 0.5cm;
+    font-size: 0.5cm;
+    color: blue;
+    text-align: left;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: ease-in;
+
+}
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+h2{
+    text-align:center;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    font-display:inherit;
+    
+}
